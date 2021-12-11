@@ -4,10 +4,10 @@
     "server": "nodemon server"
 */
 // import express
-const express = require('express');
+import express from 'express';
 
 // import mongoDB connection method
-const connectDB = require('./config/db');
+import connectDB from './config/db';
 
 // initialize an app using express
 const app = express();
